@@ -1,0 +1,17 @@
+# include <nomlib.h> //llamado de librería
+...
+# define const valor //define constantes con su valor
+...
+tipo v1,v2,...vn;//variables globales
+...
+tipo nomfuncion ([parametros]){ //declaracion de función
+    tipo v1,v2,...vn; //variables locales
+    cuerpo de la funcion
+    [return exp;]
+}
+...
+
+void main (void){ //declaracion del menú
+    tipo v1,v2,...vn; //variables locales a main
+    cuerpo de main
+}
